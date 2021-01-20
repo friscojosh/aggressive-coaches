@@ -5,6 +5,9 @@ The model itself, which quantifies the value of each decision a coach might take
 
 My analysis, which is very simple, can be found in **analysis.R**.
 
+The README below is from Ben's original repo.
+
+
 ## Fourth down calculator
 
 This is the repository for the [fourth down calculator](https://rbsdm.com/stats/fourth_calculator) introduced in [this piece on The Athletic](https://theathletic.com/2144214/2020/10/28/nfl-fourth-down-decisions-the-math-behind-the-leagues-new-aggressiveness/). Here are the main files of interest:
