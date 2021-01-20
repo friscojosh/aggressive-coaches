@@ -1,4 +1,11 @@
-# Fourth down calculator
+# Coach Aggressivness
+
+The code here is ported over from Ben Baldwin's public repo. His 4th down bot is powered by this model, which I'm using for this analysis.
+The model itself, which quantifies the value of each decision a coach might take measured in gains or losses in win probability, is xgboost based and is defined in R/_got_for_it_model.R.
+
+My analysis, which is very simple, can be found in **analysis.R**.
+
+## Fourth down calculator
 
 This is the repository for the [fourth down calculator](https://rbsdm.com/stats/fourth_calculator) introduced in [this piece on The Athletic](https://theathletic.com/2144214/2020/10/28/nfl-fourth-down-decisions-the-math-behind-the-leagues-new-aggressiveness/). Here are the main files of interest:
 
