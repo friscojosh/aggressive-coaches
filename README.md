@@ -1,7 +1,7 @@
 # Coach Aggressivness
 
 The code here is ported over from Ben Baldwin's public repo. His 4th down bot is powered by this model, which I'm using for this analysis.
-The model itself, which quantifies the value of each decision a coach might take measured in gains or losses in win probability, is xgboost based and is defined in R/_got_for_it_model.R.
+The model itself, which quantifies the value of each decision a coach might take measured in gains or losses in win probability, is xgboost based and is defined in **R/_go_for_it_model.R.**
 
 My analysis, which is very simple, can be found in **analysis.R**.
 
