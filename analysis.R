@@ -138,19 +138,16 @@ league_regular_season <- go_for_it %>%
   ungroup() %>%
   mutate(game_id = as.factor(game_id)) %>%
   filter(week <= 17) %>% 
-  group_by(season) %>% 
   summarize(n = n(),
             go = sum(go),
             went_for_it_rate = ifelse(sum(go) > 0, sum(go) / n, 0)
-  ) %>% ungroup()
+  )
 
 league_postseason <- go_for_it %>%
   ungroup() %>%
   mutate(game_id = as.factor(game_id)) %>%
   filter(week > 17) %>% 
-  group_by(season) %>% 
   summarize(n = n(),
             go = sum(go),
             went_for_it_rate = ifelse(sum(go) > 0, sum(go) / n, 0)
-  ) %>% ungroup()
-
+  )
